@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="JavaScript 2 project article for OldGamesArchive." />
+  <title>Online Shop | Yeabsera Gabriel</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/projects.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="../index.html" class="logo">YG</a>
+
+      <div class="nav-links">
+        <a href="../index.html#skills">Skills</a>
+        <a href="../index.html#projects">Projects</a>
+        <a href="../index.html#contact">Contact</a>
+        <a href="https://github.com/YeabseraG" target="_blank" rel="noopener" class="github-nav-btn">
+          GitHub Profile
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section
+      class="project-hero project-hero-bg"
+      style="--project-bg: url('../assets/javascript-frameworks.jpg');"
+    >
+      <div class="project-overlay"></div>
+
+      <div class="container project-hero-content">
+        <a href="../index.html#projects" class="back-link">← Back to projects</a>
+
+        <p class="eyebrow">JavaScript Frameworks</p>
+        <h1>Online Shop</h1>
+
+        <p class="project-intro">
+          A responsive e-commerce platform developed with React, Next.js and TypeScript, featuring product search, dynamic routing, cart management and a complete checkout flow. The project demonstrates modern front-end development practices, component-based architecture and user-centered design principles.
+        </p>
+
+        <div class="project-actions">
+          <a href="https://jsfw-2025-v1-yeabserag-js-framework.vercel.app/" target="_blank" rel="noopener" class="btn secondary">
+            View Live Site
+          </a>
+          <a href="https://github.com/NoroffFEU/jsfw-2025-v1-yeabserag-js-frameworks/tree/main/online-shop" target="_blank" rel="noopener" class="btn secondary">
+            GitHub README
+          </a>
+          <button class="btn secondary copy-link" type="button">Copy Page Link</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-details container">
+      <div class="tabs" role="tablist" aria-label="Project information tabs">
+        <button class="tab-button active" type="button" data-tab="description">Description</button>
+        <button class="tab-button" type="button" data-tab="stack">Tech Stack</button>
+      </div>
+
+      <article class="tab-panel active" id="description">
+        <h2>Project Description</h2>
+        <p>
+          Online Shop is a React and Next.js e-commerce application that allows users to browse products, search for items, view product details, add products to a cart and complete a checkout flow.
+        </p>
+
+        <p>
+          The project was created to practise component-based development, routing, state management,
+          API fetching and user interaction in a modern JavaScript framework environment.
+        </p>
+
+        <figure class="article-image">
+          <img src="../assets/javascript-frameworks.jpg" alt="OldGamesArchive homepage screenshot" />
+            <figcaption>
+              Online Shop product page showing the product details, price and add-to-cart interaction.
+            </figcaption>
+        </figure>
+
+      </article>
+
+      <article class="tab-panel" id="stack">
+        <h2>Technology Used</h2>
+        <div class="tech-list">
+          <span>React</span>
+          <span>Next.js</span>
+          <span>TypeScript</span>
+          <span>Tailwind CSS</span>
+          <span>REST API</span>
+          <span>Context API</span>
+          <span>Vercel</span>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Yeabsera Gabriel. Built with HTML, CSS and JavaScript.</p>
+  </footer>
+
+  <script src="../js/tabs.js"></script>
+</body>
+</html>

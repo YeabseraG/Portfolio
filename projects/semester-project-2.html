@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="JavaScript 2 project article for OldGamesArchive." />
+  <title>Auction House | Yeabsera Gabriel</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/projects.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="../index.html" class="logo">YG</a>
+
+      <div class="nav-links">
+        <a href="../index.html#skills">Skills</a>
+        <a href="../index.html#projects">Projects</a>
+        <a href="../index.html#contact">Contact</a>
+        <a href="https://github.com/YeabseraG" target="_blank" rel="noopener" class="github-nav-btn">
+          GitHub Profile
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section
+      class="project-hero project-hero-bg"
+      style="--project-bg: url('../assets/semester-project-2.jpg');"
+    >
+      <div class="project-overlay"></div>
+
+      <div class="container project-hero-content">
+        <a href="../index.html#projects" class="back-link">← Back to projects</a>
+
+        <p class="eyebrow">JavaScript Frameworks</p>
+        <h1>Auction House</h1>
+
+        <p class="project-intro">
+          A responsive auction marketplace that enables users to create listings, participate in auctions and manage their profiles through a dynamic, API-driven interface. The project showcases authentication workflows, real-time auction data handling, responsive layouts and user-centered front-end development practices.
+        </p>
+
+        <div class="project-actions">
+          <a href="https://yeabserag.github.io/FED2_SP2_Yeabsera_G/" target="_blank" rel="noopener" class="btn secondary">
+            View Live Site
+          </a>
+          <a href="https://github.com/YeabseraG/FED2_SP2_Yeabsera_G" target="_blank" rel="noopener" class="btn secondary">
+            GitHub README
+          </a>
+          <button class="btn secondary copy-link" type="button">Copy Page Link</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-details container">
+      <div class="tabs" role="tablist" aria-label="Project information tabs">
+        <button class="tab-button active" type="button" data-tab="description">Description</button>
+        <button class="tab-button" type="button" data-tab="stack">Tech Stack</button>
+      </div>
+
+      <article class="tab-panel active" id="description">
+        <h2>Project Description</h2>
+        <p>
+          AuctionHouse is an auction platform where users can browse auction listings, view individual listings, place bids, create listings and manage their profile.
+        </p>
+
+        <p>
+           The project was created to practise building a larger front-end application with authentication,
+           API interaction, dynamic rendering and user-focused auction functionality.
+        </p>
+
+        <figure class="article-image">
+          <img src="../assets/semester-project-2.jpg" alt="OldGamesArchive homepage screenshot" />
+            <figcaption>
+              AuctionHouse homepage showing auction listing cards with improved image fallback and auction status display.
+            </figcaption>
+        </figure>
+
+      </article>
+
+      <article class="tab-panel" id="stack">
+        <h2>Technology Used</h2>
+        <div class="tech-list">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>REST API</span>
+          <span>Authentication</span>
+          <span>Local Storage</span>
+          <span>GitHub Pages</span>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Yeabsera Gabriel. Built with HTML, CSS and JavaScript.</p>
+  </footer>
+
+  <script src="../js/tabs.js"></script>
+</body>
+</html>
